@@ -17,5 +17,5 @@
   (GET "/" []
        :return CatFact
        :summary "Gets a Cat Fact!"
-       (ok {:response-type "in_channel"
+       (ok {:response_type "in_channel"
             :text (catfact)})))
