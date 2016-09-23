@@ -4,7 +4,7 @@
             [schema.core :as s]
             [catfacts.facts :refer [catfact]]))
 
-(s/defschema CatFact {:response-type String
+(s/defschema CatFact {:response_type String
                       :text String})
 
 (defapi service-routes
